@@ -55,5 +55,6 @@ class ViewController: UIViewController {
         filteredImageView.image = filteredImage
         filterNameLabel.text = lookupImageName
     }
+    
 }
 
