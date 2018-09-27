@@ -29,7 +29,6 @@ class ViewController: UIViewController {
         let originImage = DemoPhoto[randomIndex]
 
         filteredImageView.image = UIImage(named: originImage)
-        filteredImageView.accessibilityIdentifier = "photo"
         filteredImageView.contentMode = .scaleAspectFit
     }
 
@@ -37,7 +36,7 @@ class ViewController: UIViewController {
 
         let originImage = UIImage(named: "DemoPhoto4")
 
-        var lookupImageNames = ["lookup_amatorka", "lookup_fgfacolor", "lookup_lofi", "lookup_mayfair", "lookup_miss_etikate", "lookup_nashville", "lookup_nguocnang", "lookup_soft_elegance_1", "lookup_soft_elegance_2"]
+        var lookupImageNames = ["lookup_amatorka", "lookup_fgfacolor", "lookup_lofi", "lookup_mayfair", "lookup_miss_etikate", "lookup_nashville", "lookup_nguocnang", "lookup_soft_elegance_1", "lookup_soft_elegance_2", "lookup_Retro", "lookup_Black", "lookup_Elegant"]
 
         let randomIndex = Int(arc4random_uniform(UInt32(lookupImageNames.count)))
         let lookupImageName = lookupImageNames[randomIndex]
